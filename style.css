@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.timer-container {
+    text-align: center;
+}
+
+#display {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+button {
+    font-size: 1em;
+    padding: 10px 20px;
+    margin: 5px;
+}
+
+#startButton {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+#stopButton {
+    background-color: #f44336;
+    color: white;
+    cursor: pointer;
+}
+
+#resetButton {
+    background-color: #032c4e;
+    color: white;
+    cursor: pointer;
+}
